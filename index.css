@@ -1,0 +1,304 @@
+ *{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+   font-family: 'Newsreader', serif;
+   font-family: 'Poppins', sans-serif;;
+}
+
+.container {
+    background-color: darkblue;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: stretch;
+    
+}
+
+.container li{
+    list-style-type: none;
+}
+
+.container a{
+display: inline-block;
+padding: 25px;
+margin: 0 50px;
+text-align: center;
+text-decoration: none;
+color: #ffffff;
+}
+
+.container a:hover{
+background-color: lightsteelblue;
+}
+
+
+
+.main-container{
+    display: flex;
+    background-color: azure;
+   /* align-items: center;
+   justify-content: center; */
+
+}
+
+.benefi-sec{
+    background-color: azure;
+}
+
+.beneficiaries{
+    box-shadow: -19px 16px 55px -1px rgba(0,0,0,0.74);
+    -webkit-box-shadow: -19px 16px 55px -1px rgba(0,0,0,0.74);
+    -moz-box-shadow: -19px 16px 55px -1px rgba(0,0,0,0.74);
+}
+
+.left-container{
+    flex: 1;
+    /* background-color: blueviolet; */
+    margin-left:20px;
+    /* align-items: center;
+     */
+}
+
+.main-fname{
+    margin-top: 10px;
+    font-weight: 500;
+}
+
+.fname{
+    margin-left: 70px;
+}
+
+.fdname{
+    margin-left: 100px;
+}
+
+.logo{
+position: absolute;
+left: 10px;
+margin-top: 10px;
+
+
+}
+
+.right-container{
+    flex: 1;
+    background-color: azure;
+    
+}
+
+.search{
+    display: flex;
+    position: relative;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 10px;
+    width: 150px;
+    margin: 15px 200px;
+    /* display: flex;
+    align-items:flex-end;
+    justify-content: flex-start;
+    margin: 10px 150px;
+    padding: 20px;  */
+}
+
+.search-i{
+    border: none;
+    background-color: transparent;
+}
+
+input{
+    margin-left: 10px;
+}
+
+.fsearch-img{
+position: absolute;
+margin-left: -10px;
+}
+
+.placeholder{
+    margin-left: 30px;
+}
+
+
+.main{
+    margin: 20px;
+    color: rgb(200, 20, 100);
+    padding: 10px;
+}
+
+
+.benefy-sec{
+    display: flex;
+    margin: 5px 10px;
+   
+}
+
+.funding{
+    flex: 1;
+    margin: 0 20px;
+    padding: 20px;
+}
+
+.benef-img{
+    flex: 1;
+    
+}
+
+.beneficiaries{
+    width: 100%;
+    height: 100%; 
+}
+
+.welcoming{
+    display: flex;
+    margin: 5px 10px;
+    color: rgb(20, 50, 200);
+   
+}
+
+.wlcm{
+    color: gray;
+}
+
+.about-info{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: flex-end;
+    align-content: normal;
+    margin: 5px 10px 5px 10px;
+    padding-left: 20px;
+   
+    
+}
+
+.about-f{
+    flex: 2;
+    padding: 20px;
+    margin-right: 10px;
+}
+
+
+
+.involved{
+    flex: 1;
+  
+  
+    
+}
+
+.inv{
+    display: flex;
+    align-items: center;
+    margin: 0 10px;
+}
+
+.invol{
+    margin-left:5px ;
+}
+
+.box{
+  
+    background-color: gray;
+    color: #ffffff;
+    width: 300px;
+    height: 170px;
+    margin-left: 20px;
+    padding: 10px;
+    justify-content: center;
+    border: 5px solid darkgray;
+    border-style: inset;
+}
+
+.envelope{
+    background-color: #ffffff;
+    width: 40px;
+    height: 40px;
+}
+
+.in-input{
+    margin: 10px 10px;
+    padding: 10px;
+}
+
+.input-p{
+    margin: 10px 10px;
+}
+
+hr{
+    margin-top: 40px;
+}
+
+
+.d-now{
+    display: flex;
+   padding: 5px;
+    margin: 10px 20px ;
+    justify-content: center;
+    text-align: center;
+    font-weight: bold;
+    color: rgb(200, 20, 100);
+}
+
+.donate{
+    display: flex;
+    margin: 20px;
+    border: 5px;
+    padding: 15px;
+    box-shadow: 8px 18px 16px -1px rgba(0,0,0,0.74);
+-webkit-box-shadow: 8px 18px 16px -1px rgba(0,0,0,0.74);
+-moz-box-shadow: 8px 18px 16px -1px rgba(0,0,0,0.74);
+}
+
+.footer-i{
+    display: flex;
+}
+
+.footer-left{
+    flex: 3;
+}
+
+.footer-logo{
+    margin-top: 5px;
+    padding: 5px;
+}
+
+.footer-list{
+    display: flex;
+    margin: 0 20px;  
+}
+
+.footer-text{
+    display: flex;
+    margin: 20px 20px;
+}
+
+.footer-li{
+    margin: 0 6px;
+    border-left: 5px solid darkgray;
+    padding: 5px;
+}
+
+.c-right{
+    display: flex;
+    margin-left: 100px;
+}
+
+.co-right{
+    margin-left: 5px;
+}
+
+.footer-right{
+    flex: 1;
+}
+
+.footer-right{
+    margin-top: 25px;
+}
+
+
+
+
